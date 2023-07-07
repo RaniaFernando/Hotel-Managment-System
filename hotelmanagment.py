@@ -9,8 +9,7 @@ class Resort:
         print("Welcome to the the Resort")
 
     def info(self):
-        print(
-            f"The total no of Rooms are {self.norooms} the price of a rooms is {self.price}/- the location is  {self.location} and available rooms are {self.availableroom}")
+        print( f"The total no of Rooms are {self.norooms} the price of a rooms is {self.price}/- the location is  {self.location} and available rooms are {self.availableroom}")
 
 
 p1 = Resort(32, 2000, "Mumbai", 10)
@@ -61,7 +60,6 @@ ser = input("Would you like to opt the Services y/n ")
 service = int(input("Pls confirm you want additional services  "))
 
 while (service == y and ser == range(1, 5)):
-
     anum = input("Kindly enter the service number ")
     if anum == 1:
         print("Your reservarton for Spa is done ")

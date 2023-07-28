@@ -57,10 +57,9 @@ print("We have other services like \n 1.Spa \n 2.Swimming \n 3.Kids club \n 4.Ba
 
 ser = input("Would you like to opt the Services y/n ")
 
-service = int(input("Pls confirm you want additional services  "))
 
-while (service == y and ser == range(1, 5)):
-    anum = input("Kindly enter the service number ")
+if (service == y):
+    anum = int(input("Kindly enter the service number "))
     if anum == 1:
         print("Your reservarton for Spa is done ")
     elif anum == 2:

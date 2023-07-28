@@ -21,15 +21,7 @@ x = int(input("How many rooms would you like to book  "))
 y = input("Do you want to confirm your Bookings y/n ")
 
 while y == y:
-    if x == 1:
-        print("Your price is 2000Rs")
-        break
-    if x == 2:
-        print("Your price is 4000Rs")
-        break
-    if x == 3:
-        print("Your price is 6000Rs")
-        break
+   print("Your  charge will be {}".format(x*2))
 else:
     print("Sorry to see u leave")
 
